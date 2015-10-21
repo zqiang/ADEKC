@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menutree>
+  <nodes>    
+    <node>
+      <name>first</name>
+      <rc></rc>
+      <nodes>
+        <node>
+          <name>first</name>
+          <rc>first.html</rc>
+        </node>
+        <node>
+          <name>second</name>
+          <rc></rc>
+          <nodes>
+            <node>
+              <name>first</name>
+              <rc>first.html</rc>
+            </node>
+            <node>
+              <name>second</name>
+              <rc>second.html</rc>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>    
+    <node>
+      <name>second</name>
+      <rc></rc>
+      <nodes>
+        <node>
+          <name>first</name>
+          <rc>first.html</rc>
+        </node>
+        <node>
+          <name>second</name>
+          <rc>second.html</rc>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</menutree>

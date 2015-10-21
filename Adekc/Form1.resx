@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 53</value>
+  </data>
+  <data name="treeView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeView1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>137, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACG
+        BwAAAk1TRnQBSQFMAgEBAgEAAZwBAAGcAQABEAEAARABAAT/AREBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEQBgABCBIAAbIBJQHvAT0BLwERAS8BDQEvAQ0BLwENAS8BDQEvAQ0B9wFeAS8BEQEv
+        AQ0BLwENAS8BDQH/AX8B/wF/Af8BfwQAARgBYwEYAWMBGAFjARgBYwEYAWMBGAFjARgBYwEYAWMBGAFj
+        ARgBYwEYAWMBGAFjRAABsgElAfcBXgHvAT0B7wE9AW8BHQEvAQ0BLwENAS8BFQH3AV4B7wE9AS8BDQEv
+        AQ0BLwENAS8BDQEaAVsB/wF/BAAB/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/
+        Af8BfwH/AX9EAAGyASUBLwENAfcBXgHvAT0B7wE9Ae8BPQGPASkB9wFeAfcBXgHvAT0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQH/AX8EAAH/AX8B/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/
+        Af8Bf0QAAbIBJQEvAQ0B9wFeAfcBXgHvAT0B7wE9Ae8BPQH3AV4B1gFaAe8BPQHvAT0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQQAARgBYwEYAWMBGAFjARgBYwEYAWMBGAFjARgBYwEYAWMBGAFjARgBYwEYAWMBGAFj
+        RAABsgElAS8BDQEvAQ0B9wFeAfcBXgHvAT0B7wE9AfcBXgGUAVIB7wE9Ae8BPQEvAQ0BLwENAS8BDQEv
+        AQ0BLwENBAAB/wF/BAABGAFjARgBYwEYAWMBGAFjARgBYwQAAf8BfwH/AX9EAAGyASUBLwENAS8BDQH3
+        AV4B9wFeAfcBXgHvAT0B7wE9ATEBRgHvAT0B7wE9AfABPQEvAQ0BLwENAS8BDQEvAQ0EAAH/AX8BGAFj
+        BAABGAFjARgBYwEYAWMEAAEYAWMB/wF/Af8Bf0QAAbIBJQEvAQ0BLwENAe8BPQEQAUIB9wFeAfcBXgHv
+        AT0B7wE9Ae8BPQHvAT0B7wE9AS8BDQEvAQ0BLwENAS8BDQQAARgBYwEYAWMBGAFjCgABGAFjARgBYwEY
+        AWMBGAFjRAABsgElAc8BNQHvAT0B7wE9Ae8BPQHvAT0B7wE9AVIBSgHvAT0B7wE9Ae8BPQHvAT0B0AE1
+        AS8BDQEvAQ0BLwENBAAB/wF/ARgBYwEYAWMBGAFjCAABGAFjARgBYwH/AX8B/wF/RAABsgElAfcBXgH3
+        AV4B9wFeAfcBXgH3AV4B9wFeAfcBXgH3AV4B7wE9Ae8BPQHvAT0B7wE9AS8BDQEvAQ0BLwENBAAB/wF/
+        ARgBYwEYAWMBGAFjCAABGAFjARgBYwH/AX8B/wF/RAAB8wEtAS8BDQEvAQ0B9wFaAfcBXgH3AV4B9wFe
+        AfcBXgH3AV4B9wFeAe8BPQHvAT0B7wE9AZABKQEvAQ0BLwENBAABGAFjARgBYwEYAWMKAAEYAWMBGAFj
+        ARgBYwEYAWNEAAFbAWcBLwENAS8BDQEvAQ0BLwENAZUBSgH3AV4B9wFeAfcBXgH3AV4B9wFeAe8BPQHv
+        AT0B7wE9AS8BDQEvAQ0EAAH/AX8BGAFjBAABGAFjARgBYwEYAWMEAAEYAWMB/wF/Af8Bf0QAAf8BfwEv
+        AQ0BLwENAS8BDQEvAQ0BLwENAS8BDQETATYB9wFeAfcBXgH3AV4B9wFeAe8BPQHvAT0BUAEZAS8BDQQA
+        Af8BfwQAARgBYwEYAWMBGAFjARgBYwEYAWMEAAH/AX8B/wF/RAAB/wF/AS8BEQEvAQ0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQEvAQ0BkQEdAfcBXgH3AV4B9wFeAe8BPQHvAT0BLwENBAABGAFjARgBYwEYAWMBGAFj
+        ARgBYwEYAWMBGAFjARgBYwEYAWMBEAFCSAAB/wF/Af8BfwEvAQ0BLwENAS8BDQEvAQ0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQEvAREB9wFeAfcBXgHvAT0BLwERBAAB/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/
+        Af8BfwH/AX8BEAFCARgBY0YAAf8BfwH/AX8B/wF/AS8BDQEvAQ0BLwENAS8BDQEvAQ0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQEPAQ0B9wFeAe8BPQQAAf8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/Af8BfwH/AX8B/wF/
+        ARABQkgAAf8BfwH/AX8B/wF/Af8BfwH/AX8B2AFOAVABFQEvAQ0BLwENAS8BDQEvAQ0BLwENAS8BDQEv
+        AQ0BLwENAS8BDQQAARABQgEQAUIBEAFCARABQgEQAUIBEAFCARABQgEQAUIBEAFCARABQkgAAUIBTQE+
+        BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8DAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHA
+        AQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQEGAAHAAQMGAAHA
+        AQcGAAHAAQ8EAAs=
+</value>
+  </data>
+  <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeView1.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 396</value>
+  </data>
+  <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
+    <value>treeView1</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="webBrowser1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 396</value>
+  </data>
+  <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Name" xml:space="preserve">
+    <value>webBrowser1</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;webBrowser1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 396</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 25</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File(&amp;F)</value>
+  </data>
+  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="editEToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="editEToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit(&amp;E)</value>
+  </data>
+  <data name="baseLibToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="baseLibToolStripMenuItem.Text" xml:space="preserve">
+    <value>BaseLib(&amp;B)</value>
+  </data>
+  <data name="calLibToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
+  </data>
+  <data name="calLibToolStripMenuItem.Text" xml:space="preserve">
+    <value>CalLib(&amp;C)</value>
+  </data>
+  <data name="libMgrToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="libMgrToolStripMenuItem.Text" xml:space="preserve">
+    <value>LibMgr(&amp;L)</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 21</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help(&amp;H)</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 452</value>
+  </metadata>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 452</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 25</value>
+  </metadata>
+  <data name="searchButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk32BAAAAAAAAHYAAAAoAAAAMAAAADAAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD/////////
+        //////AAAAAAAAD///////////////////////AAAAAAAAAP//////////////////////AAAAAAAAAA
+        //////////////////////AAAAAAAAAAD/////////////////////AAAAAAAAAAAP//////////////
+        //////AAAAAAAAAAAA////////////////////AAAAAAAAAAAAD///////////////////AAAAAAAAAA
+        AAAP//////////////////AAAAAAAAAAAAAA//////////////////AAAAAAAAAAAAAAD///////////
+        //////AAAAAAAAAAAAAAAP////////////////AAAAAAAAAAAAAAAA////////////////AAAAAAAAAA
+        AAAAAAD///////////////AAAAAAAAAAAAAAAAAP//////////////AAAAAAAAAAAAAAAAAA////////
+        //////AAAAAAAAAAAAAAAAAAD/////////////AAAAAAAAAAAAAAAAAAAP////////////AAAAAAAAAA
+        AAAAAAAAAA////////////AAAAAAAAAAAAAAAAAAAAD///////////AAAAAAAAAAAAAAAAAAAAAP////
+        //////AAAAAAAAAAAAAAAAAAAAAA//////////AAAAAAAAAAAAAAAAAAAAAAD/////////AAAAAAAAAA
+        AAAAAAAAAAAAAP////////AAAAAAAAAAAAAAAAAAAAAAAP////////AAAAAAAAAAAAAAAAAAAAAAAP//
+        //////AAAAAAAAAAAAAAAAAAAAAAD/////////AAAAAAAAAAAAAAAAAAAAAA//////////AAAAAAAAAA
+        AAAAAAAAAAAP//////////AAAAAAAAAAAAAAAAAAAAD///////////AAAAAAAAAAAAAAAAAAAA//////
+        //////AAAAAAAAAAAAAAAAAAAP////////////AAAAAAAAAAAAAAAAAAD/////////////AAAAAAAAAA
+        AAAAAAAA//////////////AAAAAAAAAAAAAAAAAP//////////////AAAAAAAAAAAAAAAAD/////////
+        //////AAAAAAAAAAAAAAAA////////////////AAAAAAAAAAAAAAAP////////////////AAAAAAAAAA
+        AAAAD/////////////////AAAAAAAAAAAAAA//////////////////AAAAAAAAAAAAAP////////////
+        //////AAAAAAAAAAAAD///////////////////AAAAAAAAAAAA////////////////////AAAAAAAAAA
+        AP////////////////////AAAAAAAAAAD/////////////////////AAAAAAAAAA////////////////
+        //////AAAAAAAAAP//////////////////////AAAAAAAAD///////////////////////AAAAAAAA//
+        /////////////w==
+</value>
+  </data>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="searchTextBox.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 474</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC0qJv/j3Nb/45jPv+NYj7/jWI+/41iPv+NYj7/jWI+/41iPv+NYj7/jWI+/41iPv+NYj7/jWI+/41i
+        Pv+NYj7/jWI+/41iPv+NYj7/jWI+/41iPv+NYj7/jWI+/41iPv+NYj7/jWI+/41iPv+NYj7/jWI+/41i
+        Pv+NYj7/jWI+/41iPv+TblD/nYRt/41iPv+NYj7/jWI+/41iPv+OY0H/lm5M/6OBZf+4nYb/zr2v/+rl
+        3v/+/v3//v7+//7+/v//////////////////////////////////////////////////////////////
+        ////////////////////////oYRr/6WkpP9+dm7/flxB/31JIP97SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/99SCD/rZ+S/4yFf/99SiL/fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98RyD/jGA9/7SZgv/k3dX//f7+//7+/v//////////////////////////////
+        /////////////////////////////////////////////5dvT/+rm4//paWk/35/f/+AeHL/f2BH/3xK
+        I/97Rx//fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB//mHtj/76+v/9/gYH/hWFG/3tI
+        Hv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB7/fEge/5hyUf/QwrT//fz8//7+
+        /v/+//7///////////////////////////////////////////////////////////+Wb0//jWRF/7++
+        v/+kpaX/f39//35/fv+Ae3b/fmNO/31MJv98SB7/e0gf/3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98Rx//hVs5/726
+        uv+7u7v/fn5//4V6cf96SCD/fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/5FqSf/b0MX//v7+///+/v/+/v//////////////////////////////////////////
+        ////////lm9P/31HIP+wpJn/v76//6SkpP9/f3//f39//39/f/+BfXn/gGdU/3xOKv98SB7/fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fUok/7OnoP+/vr//tbW1/35+fv9/f3//g10//3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98Rx//fEkg/62Pdf/18/D//v7////+////////////////
+        /////////////////////////////5ZvT/98SB7/kG1P/7++v/++vr7/pKSk/39/f/9/f3//fn9+/35+
+        f/+AfXz/gGta/31RLv98Rx//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/6CGc/++v7//vr6//7CwsP9/f3//fn9+/4V2bP97Rx//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEcf/3xIHv98SB7/jmA//+Pb
+        0//+/v7///////////////////////////////////////////+Wb0//fEge/3tIIf+0q6T/v7+//76+
+        vv+kpKT/f39//39/f/9/f3//f35+/35/fv+Afn7/gG5g/39UNP98SB7/fEge/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/4tkRP++vbz/vr+//7+/v/+qqqr/f39//35/
+        f/+Af3//glg3/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3pIH/+BUCn/1Mi8//3+/v//////////////////////////////////////lm9P/3xI
+        Hv98Rx//lXVc/7+/vv+/v7//vr6+/6SkpP9/f3//f39//39/f/9/f3//f35//39+f/9/f37/f3Jm/31Z
+        Of97SB//fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//e0gf/39OKP+2r6n/v7++/7+/
+        v/+/v7//paWl/35+fv9/f3//f39+/4RyZP98Rx//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEcf/35LI//QwLP//f7+////////////////////
+        /////////////5ZvT/98SB7/fEgf/35LI/+5sq3/v7+//7+/v/++vr7/o6Oj/39/f/9/f3//f39//39/
+        f/9/f3//f35//39/fv9/f37/f3Vt/35bQf98SSD/e0ge/3xIH/98SB//fEgf/3xIH/98SB//fEcf/3xI
+        Hv+lkoP/v7++/7+/vv+/v7//vr6+/5+fn/9/f3//f39//39/fv+BgH7/gVMx/3tIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB7/fksj/9PI
+        u//+/v7///////////////////////////+Wb0//fEge/3xIH/98SB7/m31n/76/v/+/v7//v7+//7+/
+        v/+jo6P/f39//39/f/9/f3//f39//39/f/9/f3//f39//39+f/9+fn//f3dy/4BeRv98SiL/e0gf/3tI
+        H/98SB//fEgf/3xIHv+Rb1P/wL++/7+/v/+/v7//v7+//76+vv+ZmZn/f39//39/f/9/f3//f39//4Ru
+        Xf98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3tHH/+CUSr/5d7V//7+/v/+//7/////////////////lm9P/3xIHv98SB//fEgf/39O
+        KP+7t7T/v7+//7+/v/+/v7//v7+//6Ojo/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9+f37/gHp2/39jTP97SyX/fEgf/3xIHv+CUy//urWy/7+/v/+/v7//v7+//7+/v/+/v7//k5OT/39/
+        f/9/f3//f39//39/f/+BgH3/flAr/3tIHv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//e0gf/5FkQ//29fP//v7+/////////////////5Zv
+        T/98SB7/fEgf/3xIH/98SB//n4Zy/76/v/++v7//v7+//7+/v/++vr7/o6Oj/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//gHx5/31mU/97Tiv/qp6R/7++vv+/v7//v7+//7+/
+        v/+/v7//vr6+/46Ojv9/f3//f39//39/f/9/f3//fn5+/4NqV/98SB7/fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB7/r5N6//7+
+        /v////7///////////+Wb0//fEge/3xIH/98SB//e0gf/4FSLv+9u7n/vr++/7+/v/+/v7//v7+//7+/
+        v/+jo6P/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/fv9/f37/hIOD/76+
+        vv+/v7//v7+//7+/v/+/v7//v7+//7+/v/+IiIj/f39//39/f/9/f3//f39//39/f/+Cfnv/fU0m/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/31JIP/e1Mr//v/+////////////lm9P/3xIHv98SB//fEgf/3xIH/98SB//o5B9/76/
+        vv+/v7//v7+//7+/v/+/v7//v7+//6Ojo/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//35+fv+ysrL/v7+//7+/v/+/v7//v7+//7+/v/+/v7//g4OD/39/f/9/f3//f39//39/
+        f/9/f3//f35//4RmT/96SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xHH/98Rx//mXBS//39/f///////////5ZvT/98SB7/fEgf/3xI
+        H/98SB//fEge/4VaNf++vb3/vr++/7+/v/+/v7//v7+//7+/v/+/v7//o6Oj/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//n5+f/7+/v/+/v7//v7+//7+/v/+/v7//vLy8/39/
+        f/9/f3//f39//39/f/9/f3//f39//35+f/+DfHj/fUok/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIHv/Vx7r//v/+////
+        //+Wb0//fEge/3xIH/98SB//fEgf/3xIH/99Rx7/qpeK/76/vv+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+jo6P/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//42Njf+/v7//v7+//7+/
+        v/+/v7//v7+//7e3t/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//fX9//4NhSP98SB7/fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//mXNU//7+/f//////lm9P/3xIHv98SB//fEgf/3xIH/98SB//e0cf/4thQf/Avr7/vr++/7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//6Kiov9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//urq6/7+/v/+/v7//v7+//7+/v/+ysrL/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        fv+DenL/fEkg/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIIP/n39n//v7+/5ZvT/98SB7/fEgf/3xIH/98SB//fEgf/3tI
+        H/98SB//r6CV/7++v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//oqKi/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//fn5+/6ioqP+/v7//v7+//7+/v/+/v7//rKys/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39+/4JeQP98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB//uaCL//7+/v+Wb0//fEge/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/5BpS/++v7//vr6//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+ioqL/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/+VlZX/v7+//7+/v/+/v7//v7+//6am
+        pv9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/fv+Dd23/e0ke/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/5Jo
+        Rf/9/v3/lm9P/3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//sqmf/7+/vv+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//6Kiov9/f3//f39//39/f/9/f3//f39//39/f/9/f3//g4OD/76+
+        vv+/v7//v7+//7+/v/+hoaH/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//fn9+/4FZ
+        Of98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SR//7enk/5ZvT/98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//e0ge/5Vy
+        V/++v77/v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//oqKi/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/+xsbH/v7+//7+/v/+/v7//m5ub/39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/fv+Fc2b/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/9LBs/+Wb0//fEge/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SiH/t7Cq/76/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+ioqL/f39//39/f/9/f3//f39//39/f/9/f3//np6e/7+/v/+/v7//v7+//5WVlf9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f37/gX9//39UMv98SB7/fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/31IH/+4oIn/lm9P/3xI
+        Hv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEge/5l6Y/++vr//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//6Kiov9/f3//f39//39/f/9/f3//f39//4uLi/+/v7//v7+//76+
+        vv+QkJD/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39+fv+Cb1//fEcf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//poVr/5ZvT/98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/9+TSX/urWy/7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//oqKi/39/f/9/f3//f39//39/
+        f/9/f3//ubm5/7+/v/+/v7//ioqK/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f37/gX99/35RLP98Rx//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/5pzU/+Wb0//fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//e0ge/6CDbv++v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+ioqL/f39//39/f/9/f3//f39//6ampv+/v7//v7+//4SEhP9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/+Dalf/e0ge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/+QZkP/lm9P/3xIHv98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3tIH/+BUSz/uLa2/76+vv++vr7/v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/6Kiov9/f3//f39//39/f/+UlJT/vr6+/76+vv9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//gn57/35NJ/98SB7/fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI//5Zv
+        T/98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIHv99Tyn/fnFn/31/f/+Li4v/np6e/7Gx
+        sf++vr7/v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//oaGh/39/f/9/f3//goKC/76+
+        vv+5ubn/fn5+/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//35+
+        fv+DZlD/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/41iPv+Wb0//fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/31IH/9+W0D/f3t5/35+
+        f/9+f37/f39//35+fv9+fn7/hISE/5aWlv+pqan/u7u7/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+hoaH/f39//35+fv+vr6//s7Oz/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//gXx5/3xLJP98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/+NYj7/lm9P/3xIHv98SB//fEgf/3xIH/98SB//e0gf/3tL
+        JP9/a1z/f39+/39/fv9/f3//f39//39/f/9/f3//f39//39/f/9+fn7/f39//4CAgP+Pj4//oqKi/7W1
+        tf+/v7//v7+//7+/v/+/v7//v7+//6Ghof9/f3//nZ2d/66urv9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//35+f/+DYkr/e0ge/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI+/5ZvT/98SB7/fEgf/3xI
+        H/98Rx//fUgd/3xWNf9+eHP/f35//39+f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//35+fv9/f3//iIiI/5ubm/+urq7/vb29/76+vv+/v7//oaGh/4qKiv+oqKj/f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9+f3//gXpz/3xJ
+        If98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/41i
+        Pv+Wb0//fEge/3xIH/98Rx//e0kh/31lUf9+fn3/fn9//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//4KCgv+Tk5P/pqam/7m5
+        uf+hoaH/m5ub/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//35/fv+AXkD/fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/+NYj7/lm9P/3xIHv97SB//fFEt/390bP9/f37/f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//fn5+/4CA
+        gP+Ghob/i4uL/5GRkf+Xl5f/qqqq/6SkpP9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f37/gndv/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI+/5ZvT/98SB//fl9F/399ev9/f37/f39//39/
+        f/9/f3//f39//39/f/9+fn7/fn5+/39/f/9/f3//gYGB/4eHh/+NjY3/kpKS/5iYmP+enp7/o6Oj/6mp
+        qf+vr6//tbW1/7u7u/++vr7/v7+//7+/v/++vr7/vr6+/7+/v/+/v7//oKCg/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/fv+BWTz/e0ge/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/41iPv+XdFn/f3Bg/39/
+        f/+CgoL/iIiI/46Ojv+UlJT/mZmZ/5+fn/+lpaX/qqqq/7CwsP+2trb/vLy8/76+vv++vr7/v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+goKD/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/fn//gnNn/3xHH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/+NYj7/pIx5/7Gmnf+8vLz/vr6+/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/6CgoP9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/+AVTT/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//jWI+/5ZvT/99SSD/k25R/7KmnP+/v77/v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/++vr7/oKCg/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9+f37/g25g/31IHv98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/41iPv+Wb0//fEge/3xHH/98Rx//jmdH/66e
+        kf/Avr7/v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+goKD/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//fn9+/39/
+        fv99Ui3/fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/+NYj7/lm9P/3xI
+        Hv98SB//fEgf/3xHH/98SB7/iV89/6iXh/++vrz/v7++/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//5+fn/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9+f37/gGtZ/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//jWI+/5dxUf98SB7/fEgf/3xIH/98SB//fEgf/3xIHv98SB7/hlg1/6WOff++u7n/v7++/7++
+        vv+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//n5+f/35+fv9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//fn9+/4B+e/99Tij/fEcf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/41iPv+deFr/fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB7/g1Mt/6CHcv+9uLT/vr++/76/vv++vr//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+enp7/fn5+/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/fn//gGdS/3xI
+        Hv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/+NYj7/pIRn/3xIHv98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/99Rx//f04p/51/Z/+5s67/vr++/76/vv++v77/v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/56env9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9/f3//f39+/4F9d/98SyX/e0cf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI+/66T
+        ev97SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB7/fksk/5l3
+        Xf+3rqX/vr6//76/vv++v77/v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//np6e/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//gWJM/3tIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/41iPv/Er5z/fEcf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEge/3tHH/98SB7/fEog/5NwUv+zp53/vr+9/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+dnZ3/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//4J6dP97SSL/fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/+NYj7/3NHI/3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3tIHv97Rx//e0ge/49nSP+uoJP/v7+9/76/
+        vv+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/52dnf9+fn7/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/
+        f/9+fn//f15E/3tHH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI+//f28v98SyX/fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98Rx//fUcf/4pgP/+ql4r/v768/76/vv+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/++vr7/nZ2d/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9/f3//f39//4B3b/97SCD/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/41i
+        Pv/9/v7/m3RU/3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB//e0ge/4VZNv+lj4D/vbu6/7+/vv+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+dnZ3/fn5+/39/f/9/f3//f39//39/f/9/f3//f39//39/f/9+f37/f1o7/3xHH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/+NYj7//////7+qmP99SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEge/4NT
+        L/+fiHX/vLi1/76+v/+/vr//vr6//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/52dnf9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39+/4Jz
+        af97SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//jWI+///////t6eT/e0oh/3xIHv98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEcf/35PKf+cgGn/urSu/76/v/+/v77/v76//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/++vr7/nJyc/39/f/9/f3//f39//39/
+        f/9/f3//f39//39/f/9+f37/gFY2/3xIHv98SB//fEgf/3xIH/98SB//fEgf/41iPv///////P39/6F/
+        Yv97SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEge/39LJf+ZeGD/ta6o/7++
+        vv++v77/vr++/7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+cnJz/fn5+/39/f/9/f3//f39//39/f/9/f3//fn9+/39vYv99Rx//fEgf/3xIH/98SB//fEgf/3xI
+        H/+NYj7///////7////b0cb/e0gf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98Rx//fEge/3xJIf+RcVX/sqie/76/vv+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/5ycnP9/f3//f39//39/f/9/f3//f39//39+f/9/f37/f1Iv/3xI
+        H/98SB//fEgf/3xIH/98SB//jWI+/////////////f3+/5t1Vv98SB7/fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/97SB//fEcf/3tIHv+RaUr/rqCU/76+vv++v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//nJyc/35+fv9/f3//f39//39/
+        f/9/f3//fn9+/39sWv97SB7/e0ge/3xIH/98SB//fEgf/41iPv////////////7+/v/g2NH/fEog/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB7/e0cf/3xI
+        Hv+LYT//qpiL/7+9vf++vr//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/
+        v/+bm5v/fn5+/39/f/9/f3//f39//39+fv9+fnz/fk4q/3xIHv98SB//fEgf/3xIH/+NYj7/////////
+        /////////f7+/7GXfv99Rx7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/97SB//fEgf/3xIHv+FWjf/pZGA/727uv++vr//v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7//v7+//7+/v/+/v7//vr6+/5ubm/9/f3//f39//39/f/9/f3//f35//4FnVP98SB7/fEgf/3xI
+        H/98SB//jWI+//////////////////7+/v/49/X/kWdF/3tIH/97SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//e0ce/3xIH/+EVDD/oYl3/7y4
+        tv++v77/v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/++vr7/m5ub/35+fv9/f3//f39//35/
+        fv+BfXn/fEwm/3xIHv98SB//fEgf/41iPv///////////////////////v7+/+fg2v+DUSz/fEgf/3tI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIHv+AUCn/nIFr/7m0sP++vr//v76//76+v/+/v7//v7+//7+/v/+/v7//v7+//76+
+        vv+bm5v/fn5+/39/f/9/f3//f39+/35jTv98SB//fEgf/3xIH/+NYj7/////////////////////////
+        ///+/v7/2MzA/39MJP98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xHHv9+TCX/mHpg/7mvqP++vr//v7++/7+/
+        vv+/v7//v7+//7+/v/+/v7//vr6+/5qamv9+fn7/f39//39+fv+AenX/e0oi/3tIH/98SB//jWI+////
+        //////////////////////////////7+/v/TwrX/fksj/3tIH/98SB7/fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SiL/lHFX/7Spof++v77/vr+//76/v/++v7//v7+//7+/v/++vr7/mpqa/39/f/9/f3//f39//39f
+        Rf97SB//fEgf/41iPv///////////////////////////////////v///v7+/9fJvP+CUSj/e0ge/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEge/3xHHv96SB//j2pM/66hl/++vr//v76//7+/v/+/v7//v7+//76+
+        vv+ampr/fn5+/39/f/+Ad3H/e0gg/3xIH/+NYj7/////////////////////////////////////////
+        ///+/v7/5NvT/4xgO/98SB7/fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEcf/3xIH/98SB//jWFC/6qa
+        jf+/vb7/vr6//7+/v/+/v7//vr6+/5qamv9+fn7/fn9+/4BbP/98SB7/jWI+////////////////////
+        //////////////////////////////7+/v/08u7/qIpw/3xIHv98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEge/3tHH/99Rx//iFw4/6WSgf++vLv/v76//7+/v/++vr7/mZmZ/35+fv+BdGr/e0gf/41i
+        Pv///////////////////////////////////////////////////////v7+//z+/f/ZzMD/j2ZE/3xI
+        Hv98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/31HH/98SB7/g1Yw/6GLd/+8ubb/v76//76+
+        vv+ZmZn/fn9+/4BXOP+NYj7/////////////////////////////////////////////////////////
+        /////////v7+//z7+v/Mu6v/kGZE/3xHHv97SB7/fEge/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98Rx//gVEq/56Cbf+5tbH/vr6//5iZmP9+cGb/jWI9////////////////////////////////////
+        /////////////////////////////////////////v////z9/P/azsX/rY51/4VXMv98SB7/fEcf/3tI
+        Hv97SB7/fEcf/3xHH/97SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB7/fk0l/5h6Y/+3r6r/mpmY/49tUP//////////////
+        //////////////////////////////////////////////////////////////////////////////7+
+        /v/8+/r/4djQ/8Swn/+sj3X/mnNV/4tfPf+DUin/fksh/3tHHv98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xI
+        H/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fEgf/3xIH/98SB//fUoi/5Vy
+        WP+gi3v/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ADEKC</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>closeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editEToolStripMenuItem.Name" xml:space="preserve">
+    <value>editEToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editEToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;baseLibToolStripMenuItem.Name" xml:space="preserve">
+    <value>baseLibToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;baseLibToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calLibToolStripMenuItem.Name" xml:space="preserve">
+    <value>calLibToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;calLibToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;libMgrToolStripMenuItem.Name" xml:space="preserve">
+    <value>libMgrToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;libMgrToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Name" xml:space="preserve">
+    <value>searchButton</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
+    <value>searchTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
